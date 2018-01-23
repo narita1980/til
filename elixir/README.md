@@ -12,3 +12,18 @@ Erlang/OTP 20 [erts-9.2] [source] [64-bit] [smp:8:8] [ds:8:8:10] [async-threads:
 
 Elixir 1.6.0 (compiled with OTP 20)
 ```
+
+HelloWorld
+
+```
+$ cat hello.exs 
+defmodule Hello do
+    def world do
+        IO.puts "Hello world"
+    end
+end
+
+Hello.world
+$ elixir hello.exs 
+Hello world
+```
